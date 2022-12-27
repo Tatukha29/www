@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Fuckbook</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="header">
+        <div class="navbar flex">
+            <div class="div-logo">
+                <div class="logo flex">
+                    <img class="logo-img" src="images/logo.png" alt=""/>
+                    <h1><a class="curs" href="main.html">Fickbook</a></h1>
+                </div>
+            </div>
+            <div class="wrappers" id="navi-list">
+                <div class="wrap">
+                    <a href="top.html">
+                        Популярное
+                    </a>
+                </div>
+                <div class="wrap">
+                    <a href="fanfics.html">
+                        Фанфики
+                    </a>
+                </div>
+                <div class="wrap">
+                    <a href="authors.html">
+                        Авторы
+                    </a>
+                </div>
+                <div class="wrap">
+                    <a href="person.html">
+                        Личный кабинет
+                    </a>
+                </div>
+            </div>
+
+            <div class="menu" id="toggle-button" onclick="menu();">
+                <img class="logo-menu" src="images/menu.png">
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="search">
+            <div class="banner">
+                <div class="banner-text">
+                    <h1>
+                        Книга фанфиков
+                    </h1>
+                    <p>
+                        Миллионы историй о твоих любимых персонажах
+                    </p>
+                    <input class="search-input" type="search" placeholder="Название фанфика">
+                </div>
+                <section class="container">
+                    <div class="cards">
+                        <div class="card border1 f-1">
+                            <img class="nick" src="images/slash.png">
+                            <div class="card-texts">
+                                <div class="flex">
+                                    <img class="fandom-nick" src="images/book.png">
+                                    <p>Ориджиналы</p>
+                                </div>
+                                <a href="fick.html"><h2>Каждый должен быть нормальным</h2></a>
+
+                            </div>
+                        </div>
+                        <div class="card border2 f-2">
+                            <img class="nick" src="images/get.png">
+                            <div class="card-texts">
+                                <div class="flex">
+                                    <img class="fandom-nick" src="images/book.png">
+                                    <p>Ориджиналы</p>
+                                </div>
+                                <a href="fick.html"><h2>Кавинский</h2></a>
+                            </div>
+                        </div>
+                        <div class="card border2 f-3">
+                            <img class="nick" src="images/get.png">
+                            <div class="card-texts">
+                                <div class="flex">
+                                    <img class="fandom-nick" src="images/book.png">
+                                    <p>Ориджиналы</p>
+                                </div>
+                                <a href="fick.html"><h2>Не «зачем?», а «почему?»</h2></a>
+                            </div>
+                        </div>
+                        <div class="card border3 f-4">
+                            <img class="nick" src="images/djan.png">
+                            <div class="card-texts">
+                                <div class="flex">
+                                    <img class="fandom-nick" src="images/book.png">
+                                    <p>Ориджиналы</p>
+                                </div>
+                                <a href="fick.html"><h2>То, к чему стремишься ты 2</h2></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="fanfics">
+                    <div class="fanfic fanfic_border_slash flex">
+                        <div class="card-fanfic">
+                            <img class="nick-fanfic" src="images/slash.png">
+                            <img class="test-fanfic-img" src="images/f1.png">
+                        </div>
+                        <div class="text-fanfic">
+                            <a href="fick.html"><h1>Каждый должен быть нормальным</h1></a>
+                            <div class="fanfic-bottoms flex">
+                                <h2>Автор: </h2>
+                                <p>Luca_A_Meite</p>
+                            </div>
+                            <div class="fanfic-bottoms flex">
+                                <h2>Фэндом: </h2>
+                                <p>Ориджиналы</p>
+                            </div>
+                            <div class="fanfic-bottoms flex">
+                                <h2>Персонажи и пэйринги: </h2>
+                                <p>Герарт Беренд</p>
+                            </div>
+                            <div class="fanfic-bottoms flex">
+                                <h2>Размер: </h2>
+                                <p>95 страниц</p>
+                            </div>
+                            <hr>
+                            <p>
+                                До двадцати семи лет я просто пытался жить. Не очень успешно. То отравиться пытался, то просто рыдал на могиле сгоревшего заживо брата. Как хирург экстренного отделения я спасал людей, как человек - разрезал собственные руки до кости, лишь бы успокоиться. Но покоя не было в моей душе никогда. А когда влюбился в первого встречного, я, кажется, и вовсе существовать перестал. Но начиналось все так красиво...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="fanfic fanfic_border_get flex">
+                        <div class="card-fanfic">
+                            <img class="nick-fanfic" src="images/get.png">
+                            <img class="test-fanfic-img" src="images/f2.jpg">
+                        </div>
+                        <div class="text-fanfic">
+                            <a href="fick.html"><h1>Кавинский</h1></a>
+                            <div class="fanfic-bottoms flex">
+                                <h2>Автор: </h2>
+                                <p>НекаяЯ</p>
+                            </div>
+                            <div class="fanfic-bottoms flex">
+                                <h2>Фэндом: </h2>
+                                <p>Ориджиналы</p>
+                            </div>
+                            <div class="fanfic-bottoms flex">
+                                <h2>Персонажи и пэйринги: </h2>
+                                <p>-</p>
+                            </div>
+                            <div class="fanfic-bottoms flex">
+                                <h2>Размер: </h2>
+                                <p>95 страниц</p>
+                            </div>
+                            <hr>
+                            <p>Не такая история о любви. Не столько к человеку, сколько к самому себе. К жизни.
+                                История о вольном ветре, несущим перемены, и способности ему поддаться.
+                                История об изменчивости и принятии. О противоположностях. Предубеждениях.
+                                О неисповедимых жизненных коллизиях.
+                                И о том, чем пахнет море.</p>
+                        </div>
+                    </div>
+
+                    <div class="fanfic fanfic_border_get flex">
+                        <div class="card-fanfic">
+                            <img class="nick-fanfic" src="images/get.png">
+                            <img class="test-fanfic-img" src="images/f3.jpg">
+                        </div>
+                        <div class="text-fanfic">
+                            <a href="fick.html"><h1>Не «зачем?», а «почему?»</h1></a>
+                            <div class="fanfic-bottoms flex">
+                                <h2>Автор: </h2>
+                                <p>НекаяЯ</p>
+                            </div>
+                            <div class="fanfic-bottoms flex">
+                                <h2>Фэндом: </h2>
+                                <p>Ориджиналы</p>
+                            </div>
+                            <div class="fanfic-bottoms flex">
+                                <h2>Персонажи и пэйринги: </h2>
+                                <p>-</p>
+                            </div>
+                            <div class="fanfic-bottoms flex">
+                                <h2>Размер: </h2>
+                                <p>95 страниц</p>
+                            </div>
+                            <hr>
+                            <p>Не такая история о любви. Не столько к человеку, сколько к самому себе. К жизни.
+                                История о вольном ветре, несущим перемены, и способности ему поддаться.
+                                История об изменчивости и принятии. О противоположностях. Предубеждениях.
+                                О неисповедимых жизненных коллизиях.
+                                И о том, чем пахнет море.</p>
+                        </div>
+                    </div>
+
+                    <div class="fanfic fanfic_border_djan flex">
+                        <div class="card-fanfic">
+                            <img class="nick-fanfic" src="images/djan.png">
+                            <img class="test-fanfic-img" src="images/f4.png">
+                        </div>
+                        <div class="text-fanfic">
+                            <a href="fick.html"><h1>То, к чему стремишься ты 2</h1></a>
+                            <div class="fanfic-bottoms flex">
+                                <h2>Автор: </h2>
+                                <p>НекаяЯ</p>
+                            </div>
+                            <div class="fanfic-bottoms flex">
+                                <h2>Фэндом: </h2>
+                                <p>Ориджиналы</p>
+                            </div>
+                            <div class="fanfic-bottoms flex">
+                                <h2>Персонажи и пэйринги: </h2>
+                                <p>-</p>
+                            </div>
+                            <div class="fanfic-bottoms flex">
+                                <h2>Размер: </h2>
+                                <p>95 страниц</p>
+                            </div>
+                            <hr>
+                            <p>Не такая история о любви. Не столько к человеку, сколько к самому себе. К жизни.
+                                История о вольном ветре, несущим перемены, и способности ему поддаться.
+                                История об изменчивости и принятии. О противоположностях. Предубеждениях.
+                                О неисповедимых жизненных коллизиях.
+                                И о том, чем пахнет море.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h5 class="">КОНТАКТНАЯ ИНФОРМАЦИЯ</h5>
+        <ul>
+            <li class="">г. Якутск</li>
+            <li class="">к / т: 8 (914) 236-50-80</li>
+            <li class="">e-mail: tanyafail@mail.com</li>
+        </ul>
+        <h5>© 2018 Created by "Реброва Татьяна"</h5>
+        <p class="time"></p>
+    </div>
+</body>
+<script src="main.js">
+</script>
+</html>

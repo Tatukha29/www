@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Person Area</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="header">
+    <div class="navbar flex">
+        <div class="div-logo">
+            <div class="logo flex">
+                <img class="logo-img" src="images/logo.png" alt=""/>
+                <h1><a href="main.html">Fickbook</a></h1>
+            </div>
+        </div>
+        <div class="wrappers" id="navi-list">
+            <div class="wrap">
+                <a href="top.html">
+                    Популярное
+                </a>
+            </div>
+            <div class="wrap">
+                <a href="fanfics.html">
+                    Фанфики
+                </a>
+            </div>
+            <div class="wrap">
+                <a href="authors.html">
+                    Авторы
+                </a>
+            </div>
+            <div class="wrap">
+                <a  class="curs" href="person.html">
+                    Личный кабинет
+                </a>
+            </div>
+        </div>
+
+        <div class="menu" id="toggle-button" onclick="menu();">
+            <img class="logo-menu" src="images/menu.png">
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="search">
+        <div class="banner">
+            <div class="banner-text">
+
+            </div>
+            <section class="container_person">
+                <div class="card_person">
+                    <div class="person_info">
+                        <img class="person_banner" src="images/banner.png">
+                    </div>
+                    <div class="person_info">
+                        <div class="right_info_person">
+                            <div class="ava_person ava1"></div>
+                            <div class="card_texts_author">
+                                <h2>Banny Kam</h2>
+                                <p>21248 читателей</p>
+                                <div class="meow-card">
+                                    <img class="meowimage" src="images/cat.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-person">
+                            <h1>Banny Kam</h1>
+                            <div class="person-bottoms">
+                                <h2>О себе:</h2>
+                                <p>https://vk.com/club141087067 - это моя группа. Здесь хранится все творчество (арты, коллажи, песни, клипы) по моим работам, но в основном она служит для общения с аудиторией :з
+                                    Вы можете называть меня просто Кам.  Приятного вам прочтения, и всегда помните: на финале любой истории вас никто не ждет с конфетти и фанфарами. Не нравится - не нужно пересиливать и заставлять себя читать дальше, бросайте на полпути. Любому автору не станет легче, если вы без энтузиазма прочтете его работу от и до и почувствуете облегчение на последней главе.</p>
+                            </div>
+                            <div>
+                                <canvas id="myChart"></canvas>
+                            </div>
+                            <div class="person-bottoms">
+                                <h2>Список фанфиков</h2>
+                                <form id="new-task-form">
+                                    <input type="text" id="new-task-input" placeholder="Введите фанфик">
+                                    <input type="submit" id="new-task-submit" placeholder="Добавить">
+                                </form>
+                                <section class="task-list">
+                                    <h2>
+                                        Мой сборник
+                                    </h2>
+                                    <div id="tasks">
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <h5 class="">КОНТАКТНАЯ ИНФОРМАЦИЯ</h5>
+    <ul>
+        <li class="">г. Якутск</li>
+        <li class="">к / т: 8 (914) 236-50-80</li>
+        <li class="">e-mail: tanyafail@mail.com</li>
+    </ul>
+    <h5>© 2018 Created by "Реброва Татьяна"</h5>
+    <p class="time"></p>
+</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.js">
+</script>
+<script src="main.js">
+</script>
+<script src="diagramma.js"></script>
+<script src="catAPI.js">
+</script>
+</html>
